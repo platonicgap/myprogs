@@ -1,0 +1,19 @@
+5 REM PRINTS DANCING FIGURE---------------------------------
+10 CLS
+11 COLOR 6
+12 SOUND 500, 7
+15 PRINT TAB(2); CHR$(1)
+16 COLOR 5
+20 PRINT "/±>"
+30 PRINT "( )"
+35 FOR T = 1 TO 9000: NEXT T
+40 CLS
+45 SOUND 700, 7
+47 COLOR 6
+50 PRINT TAB(2); CHR$(1)
+55 COLOR 5
+60 PRINT "-±)"
+70 PRINT "/ >"
+100 FOR T = 1 TO 9000: NEXT T
+110 GOTO 10
+115 REM----------------------------------------------------- 
